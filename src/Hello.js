@@ -1,7 +1,11 @@
 import React from 'react';
 
 export function Hello(props) {
-  return <h1>Hello {props.name}!</h1>;
+  return (
+    <h2>
+      Hello {props.name}! Tu as {props.age} ans
+    </h2>
+  );
 }
 
 export function Greeting() {
