@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Hello(props) {
+export function Hello({ name, age }) {
   return (
     <h2>
-      Hello {props.name}! Tu as {props.age} ans
+      Hello {name}! Tu as {age} ans
     </h2>
   );
 }
