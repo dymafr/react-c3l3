@@ -1,7 +1,7 @@
 import React from 'react';
 
-export function Hello() {
-  return <h1>Hello World!</h1>;
+export function Hello(props) {
+  return <h1>Hello {props.name}!</h1>;
 }
 
 export function Greeting() {
